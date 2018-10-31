@@ -11,3 +11,10 @@ Addition in Branch - P2
 This is Master in @devrajsinghrawat
 
 Changes at Master Branch DSR
+
+Adding code
+
+async (number) => {
+  let result = await fetch(`https://fetchthedata.com/12121`);
+  let data = await result.json();
+}
